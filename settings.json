@@ -1,0 +1,5 @@
+{
+    ...
+    "rufo.exe": "rufo",  // can be an absolute path
+    "rufo.useBundler": false,
+  }
