@@ -1,5 +1,4 @@
 ##require 'active_support'
-
 notas = []
 em_aula = true
 data_encerramento = Time.now + 60
@@ -33,8 +32,4 @@ puts "O seu NPS é de #{(notas.sum / notas.length)}"
 puts "--------------------------------------------"
 puts "O número de clientes que votou foi - #{notas.length} votos.."
 puts "--------------------------------------------"
-
-    
-
-x
     
