@@ -41,7 +41,7 @@ matriculas = []
   matriculas << alunos
 
  system `clear`
-matriculas.each do |alunos|
+    matriculas.each do |alunos|
   puts "---- Relatório de Matrícula  -----}"
   puts "Nome: #{alunos[:nome_aluno1]}" 
   puts "Matrícula: #{alunos[:matricula_aluno1]}"
